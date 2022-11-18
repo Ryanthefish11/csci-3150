@@ -1,0 +1,45 @@
+body, html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+  }
+  
+
+  body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#left, #content, #right {
+   float: left;
+
+    text-align: center;
+}
+
+#left, #right {
+    width: 15%;
+    background-color: #eee;
+    height: 400px;
+    align-content: center;
+}
+
+#content {
+    width: 70%;
+    background-color: #aaa;
+}
+section{
+    align-items: center;
+    align-content: center;
+    
+    border-bottom: #78a22f solid
+}
+h1{
+    text-align: center;
+}
+h2{
+    font-size: medium;
+    font-weight: 1000;
+}
+p{
+    padding-left: 2px;
+    padding-right: 2px;
+}
