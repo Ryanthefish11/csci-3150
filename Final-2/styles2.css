@@ -1,0 +1,26 @@
+.column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  img{
+    width: 300px;
+    height: 300px;
+  }
+  .card-img-top{
+    object-fit: cover;
+    
+  }
+
+  .card-group{
+    padding: 15px 15px 15px 15px;
+  }
+  .card{
+    padding: 15px 15px 15px 15px;
+  }
