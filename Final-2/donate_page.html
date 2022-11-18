@@ -10,84 +10,56 @@
 </head>
 <body>
     
-<div class="landing-columns clearfix donate-container">			
+    <div class="donation-container">
+            
+        <div class="donation-box">
+            <div class="title">Donation Information
+                <p>(All fields are required unless otherwise indicated.)</p>
+            </div>
+            
+            <div class="fields">
+                <input type="text" id="firstName" placeholder="First Name"> </input>
+                <input type="text" id="lastName" placeholder="Last Name"> </input>
+                <input type="text" id="email" placeholder="Email"> </input>
+            </div>
+            
+            <div class="amount">
+                <div class="button">$30</div>
+                <div class="button">$50</div>
+                <div class="button">$100</div>
+                <div class="button">$<input type="text" class="set-amount" placeholder=""> </input></div>
+            </div>
+            
+            <div class="switch">
+                <input type="radio" class="switch-input" name="view" value="One-Time" id="one-time" checked="">
+                <label for="one-time" class="switch-label switch-label-off">One-Time</label>
+                <input type="radio" class="switch-input" name="view" value="Monthly" id="monthly">
+                <label for="monthly" class="switch-label switch-label-on">Monthly</label>
+                <span class="switch-selection"></span>
+            </div>
+            
+            <div class="checkboxes">
+                <input type="checkbox" id="receipt" class="checkbox" />
+                <label for="receipt">Email Me A Receipt</label>
+                <br />
+                <input type="checkbox" id="anon" class="checkbox" />
+                <label for="anon">Give Anonymously</label>
+                <br />
+                <input type="checkbox" id="list" class="checkbox" />
+                <label for="list">Add Me To Email List</label>
+            </div>
+            
+            <div class="confirm">
+                
+            </div>
+            
+            <div class="donate-button"><i class="fa fa-credit-card"></i> Donate Now</div>
+        </div>
+        
+    </div>
 
-	<div id="donate" class="anchor">
-		&nbsp;
-	</div>
-
-	<div class="flex-columns">
-
-		<div class="donate-bubble animated ">
-			<div class="circle-shape">
-					<h3>Here's how you can help</h3>
-			</div>
-		</div>
-
-		<div class="donate-block animated ">
-
-			<div class="large-12 donate-content">
-				<!-- ?php the_field('donor_text'); ? -->
-				<p>You can become a catalyst for change with us by giving today. Any amount is greatly appreciated, and your gift allows us to continue supporting lasting generational change in low-income communities by cultivating leaders from those communities.</p>
-
-			<br/>
-                <p><i>(All fields are required unless otherwise indicated.)</i></p>
-			<div class="donate-column">
-
-				<div id="donately-form">
-
-					<script src="https://www.dntly.com/assets/js/v1/form.js" 
-					data-donately-id="act_71cda2ad10fe" 
-					data-stripe-publishable-key="pk_live_snfFCUqAx5FDaHvICBiqBcHW"
-					data-donately-embed-css='true'
-					data-donately-css-url='https://greenhousescholars.org/wp-content/themes/scholars/assets/stylesheets/form.css' 
-					data-donately-amount="100" 
-					data-donately-billing-zip="true" 
-					data-donately-address="true" 
-					data-donately-phone="true" 
-					data-donately-comment="false"
-					data-donately-custom-fields='{"fields":[ {"type":"textarea","id":"who","label":"What (or who) inspired you to make a gift?","before":"submit"}]}'
-					data-donately-donor-pays-fees="false">
-					</script>
-
-<!-- 			<script src="https://www.dntly.com/assets/js/v1/form.js" 
-					data-donately-id="act_71cda2ad10fe" 
-					data-stripe-publishable-key="pk_live_snfFCUqAx5FDaHvICBiqBcHW"
-					data-donately-embed-css='true'
-					data-donately-css-url='https://greenhousescholars.org/wp-content/themes/scholars/assets/stylesheets/form.css' 
-					data-donately-amount="100" 
-					data-donately-billing-zip="true" 
-					data-donately-address="true" 
-					data-donately-phone="true" 
-					data-donately-comment="false"
-					data-donately-custom-fields='{"fields":[ {"type":"textarea","id":"who","label":"What (or who) inspired you to make a gift?","before":"submit"}]}'
-					data-donately-donor-pays-fees='{"cc":{"processor_percent":"0.029","processor_fixed":"0.30","dntly_percent":"0.03"}}'>
-					</script>	 -->				
-
-				</div>
-
-			</div>
-<br/>
-<br/>
-			</div>
-
-
-
-		</div>
-
-	</div>
-</div>
-
-<script>
-		$(window).load(function() {
-		  $('.donately-branding').addClass('hide');
-		});		
-</script>
-
-<style>
-	img[width="0"] {
-			display: none;
-	}
-</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://raw.githubusercontent.com/jerryluk/jquery.autogrow/master/jquery.autogrow-min.js"></script>
+</body>
 </body>
 </html>
