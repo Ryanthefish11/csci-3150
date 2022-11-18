@@ -1,0 +1,12 @@
+img{
+    border-radius: red solid;
+    border-bottom: #78a22f solid;
+    border-top: #78a22f solid;
+    border-right: #78a22f solid;
+    border-left: #78a22f solid;
+    width: 90%;
+    
+}
+.image{
+   margin-right: auto;
+}
